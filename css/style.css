@@ -1,0 +1,67 @@
+body {
+    background-color: peachpuff;
+    display:flex;
+    flex-direction: column;
+}
+.selfportrait {
+    
+ max-height: 220px ;
+ align-self:flex-end ;
+ justify-self: end;
+ }
+ .book {
+   max-height: 220px ;
+   align-self:flex-end ;
+   justify-self: end;
+ }
+ .fotboll {
+    max-height: 220px ;
+    align-self:flex-end ;
+    justify-self: end;
+ }
+ .coding{
+   max-height: 220px ;
+   align-self:flex-end ;
+   justify-self: end;
+ }
+ .apa{
+    max-height: 220px ;
+    align-self:flex-end ;
+    justify-self: end;
+ }
+ .amerikanska{
+    max-height: 100px ;
+    align-self:flex-end ;
+    justify-self: end;
+    margin-left: 30%;
+ }
+ .navbar{
+    overflow: hidden;
+  border: 3px;
+  border-style: solid;
+    background-color:rgb(227, 173, 102);
+ }
+ .navbar a{
+    float: left;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ .navbar a:hover{
+    background-color: rgb(197, 172, 112);
+    color:rgb(107, 84, 45)
+ }
+ .navbar a.active {
+    background-color: rgb(135, 106, 39);
+    color:rgb(220, 196, 111);
+ }
+.container {
+    display:flexbox;
+    justify-content:left;
+    align-items: center;
+}
+
+header {
+    display: flex;
+
+}
