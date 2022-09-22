@@ -4,20 +4,23 @@ body {
     flex-direction: column;
 }
 .selfportrait {
-    
+ margin-top: 15%;
  max-height: 220px ;
  align-self:flex-end ;
  justify-self: end;
  }
  .book {
-   max-height: 220px ;
-   align-self:flex-end ;
+   display: flex;
+   max-height: 420px;
+   align-self: flex-end;
    justify-self: end;
+   margin-top: 2%;
  }
  .fotboll {
-    max-height: 220px ;
+    max-height: 320px ;
     align-self:flex-end ;
     justify-self: end;
+    margin-top: 10%;
  }
  .coding{
    max-height: 220px ;
@@ -56,12 +59,45 @@ body {
     color:rgb(220, 196, 111);
  }
 .container {
-    display:flexbox;
+    display: flexbox;
     justify-content:left;
     align-items: center;
+}
+.button{
+   padding: 10px 15px;
+   background-color:rgb(209, 168, 106);
+   align-items: center;
 }
 
 header {
     display: flex;
 
+}
+.index-txt{
+   font-size: 19px;
+   text-align: center;
+   border-radius: 1cm;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   border: 3px;
+   border-style: dotted;
+   justify-content:right;
+}
+.intrests-txt{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: 3px;
+   border-style: dashed;
+   text-align: center;
+   font-size: 18px; 
+   border-radius: 1cm;
+   padding-top: 1mm;
+  
+}
+.Doc-txt{
+   font-size: 18px;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.courses-txt{
+   display: flexbox;
+   font-size: 18px;
+   font-family: Georgia, Times, 'Times New Roman', serif;
 }
