@@ -6,15 +6,20 @@ body {
 .selfportrait {
  margin-top: 15%;
  max-height: 220px ;
- align-self:flex-end ;
- justify-self: end;
+
+ }
+ .kungalv {
+   margin-top: 15%;
+   max-height: 420px ;
+   max-width: 450px;
+
  }
  .book {
    display: flex;
-   max-height: 420px;
+   max-height: 256px;
    align-self: flex-end;
    justify-self: end;
-   margin-top: 2%;
+   margin-top: 0%;
  }
  .fotboll {
     max-height: 320px ;
@@ -22,35 +27,42 @@ body {
     justify-self: end;
     margin-top: 10%;
  }
- .coding{
-   max-height: 220px ;
+ .coding {
+   max-height: 320px ;
+   margin-top: 11%;
    align-self:flex-end ;
    justify-self: end;
  }
- .apa{
+ .apa {
     max-height: 220px ;
-    align-self:flex-end ;
+    align-self: flex-end ;
     justify-self: end;
  }
- .amerikanska{
+ .amerikanska {
     max-height: 100px ;
     align-self:flex-end ;
     justify-self: end;
     margin-left: 30%;
  }
- .navbar{
+ .amerikanska_doc {
+   max-height: 100px ;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 60%;
+ }
+ .navbar {
     overflow: hidden;
-  border: 3px;
-  border-style: solid;
+    border: 3px;
+    border-style: solid;
     background-color:rgb(227, 173, 102);
  }
- .navbar a{
+ .navbar a {
     float: left;
     padding: 14px 15px;
     text-decoration: none;
     font-size: 17px;
  }
- .navbar a:hover{
+ .navbar a:hover {
     background-color: rgb(197, 172, 112);
     color:rgb(107, 84, 45)
  }
@@ -58,12 +70,17 @@ body {
     background-color: rgb(135, 106, 39);
     color:rgb(220, 196, 111);
  }
-.container {
+.container_nav {
     display: flexbox;
     justify-content:left;
     align-items: center;
 }
-.button{
+.container-1 {
+   display: flex;
+   justify-content:space-between;
+    
+}
+.button {
    padding: 10px 15px;
    background-color:rgb(209, 168, 106);
    align-items: center;
@@ -73,7 +90,7 @@ header {
     display: flex;
 
 }
-.index-txt{
+.index-txt {
    font-size: 19px;
    text-align: center;
    border-radius: 1cm;
@@ -82,7 +99,7 @@ header {
    border-style: dotted;
    justify-content:right;
 }
-.intrests-txt{
+.intrests-txt {
    font-family: Georgia, 'Times New Roman', Times, serif;
    border: 3px;
    border-style: dashed;
@@ -92,12 +109,20 @@ header {
    padding-top: 1mm;
   
 }
-.Doc-txt{
+.doc_txt {
    font-size: 18px;
    font-family: Georgia, Times, 'Times New Roman', serif;
 }
-.courses-txt{
+.courses-txt {
    display: flexbox;
    font-size: 18px;
    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+p {
+   margin-top: 1px;
+   line-height: 1.8;
+   font-size: 18px;
+}
+li {
+   line-height: 1.8;
 }
